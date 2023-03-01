@@ -5,14 +5,15 @@ import Badge from '@mui/material/Badge';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 const Container = styled.div`
-  height: 60px;
+  height: 70px;
 `
 
 const Wrapper = styled.div`
   align-items: center;
-  padding: 10px 20px;
+  padding: 0 20px 0 20px;
   display: flex;
   justify-content: space-between;
+  
 `
 
 const Language = styled.span`
