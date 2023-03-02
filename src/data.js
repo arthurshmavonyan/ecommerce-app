@@ -1,6 +1,10 @@
 import wallpaper1 from "./assets/images/fashionable-woman-red-coat-black-hat-posing.jpg";
 import wallpaper0 from './assets/images/wp6595195.jpg'
 import wallpaper2 from './assets/images/38-384787_transparent-female-models-png-transparent-women-fashion-png.png'
+import categories1 from './assets/images/categories1.jpg'
+import categories2 from './assets/images/categories2.jpg'
+import categories3 from './assets/images/categories3.jpg'
+
 
 export const sliderItems = [
         {
@@ -25,3 +29,21 @@ export const sliderItems = [
             bg: "fbf0f4"
         }
     ]
+
+export const categories = [
+    {
+        id: 1,
+        img: categories1,
+        title: "SHIRT STYLE",
+    },
+    {
+        id: 2,
+        img: categories2,
+        title: "LOUNGEWEAR LOVE",
+    },
+    {
+        id: 3,
+        img: categories3,
+        title: "LIGHT JACKETS",
+    }
+]
