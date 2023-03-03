@@ -41,7 +41,7 @@ const Left = styled.div`
 `
 
 const Logo = styled.h1`
-  font-weight: bold;
+  
 `
 
 const Center = styled.div`
@@ -76,7 +76,7 @@ const Navbar = () => {
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>LAMA</Logo>
+                    <Logo>GLAMWAY</Logo>
                 </Center>
                 <Right>
                     <MenuItem>REGISTER</MenuItem>
