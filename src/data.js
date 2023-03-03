@@ -4,6 +4,12 @@ import wallpaper2 from './assets/images/38-384787_transparent-female-models-png-
 import categories1 from './assets/images/categories1.jpg'
 import categories2 from './assets/images/categories2.jpg'
 import categories3 from './assets/images/categories3.jpg'
+import product1 from './assets/images/product1.png'
+import product2 from './assets/images/product2.png'
+import product3 from './assets/images/product3.png'
+import product4 from './assets/images/product4.png'
+import product5 from './assets/images/product5.png'
+import product6 from './assets/images/product6.png'
 
 
 export const sliderItems = [
@@ -46,4 +52,31 @@ export const categories = [
         img: categories3,
         title: "LIGHT JACKETS",
     }
+]
+
+export const popularProducts = [
+    {
+        id:1,
+        img: product1
+    },
+    {
+        id:2,
+        img: product2
+    },
+    {
+        id:3,
+        img: product3
+    },
+    {
+        id:4,
+        img: product4
+    },
+    {
+        id:5,
+        img: product5
+    },
+    {
+        id:6,
+        img: product6
+    },
 ]
