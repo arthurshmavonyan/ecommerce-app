@@ -11,7 +11,6 @@ import product4 from './assets/images/product4.png'
 import product5 from './assets/images/product5.png'
 import product6 from './assets/images/product6.png'
 
-
 export const sliderItems = [
         {
             id: 1,
