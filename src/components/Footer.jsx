@@ -2,9 +2,11 @@ import React from 'react';
 import styled from "styled-components";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import {Instagram, MailOutline, Phone, Pinterest, Room, Twitter} from "@mui/icons-material";
+import {mobile} from "../responsive";
 
 const Container = styled.div`
   display: flex;
+  ${mobile({flexDirection: "column"})}
 `
 const Left = styled.div`
   display: flex;
@@ -15,6 +17,7 @@ const Left = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({display: "none"})}
 `
 
 const Title = styled.h3`
